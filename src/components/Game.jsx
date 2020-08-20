@@ -77,7 +77,6 @@ class Game extends Component {
   }
 }
 
-export default Game;
 function calculateWinner(squares) {
   const lines = [
     [0, 1, 2],
@@ -97,3 +96,4 @@ function calculateWinner(squares) {
   }
   return null;
 }
+export default Game;
