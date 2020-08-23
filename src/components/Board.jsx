@@ -33,15 +33,6 @@ class Board extends Component {
   }
 
   render() {
-    // const winner = calculateWinner(this.state.squares)
-    // let status;
-    // if(winner) {
-    //   status = "the winner is " + winner;
-    // } else {
-    //   status = "It's " + (this.state.XisNext ? "X" : "O") + " turn:"
-    // }
-    // const status =  "It's " + (this.state.XisNext ? "X" : "O") + " turn:";
-
     return (
       <div>
         <div className="board-row">
